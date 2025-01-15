@@ -13,5 +13,7 @@ public class Main {
     public static void main(String[] args) {
         Rettangolo rettangolo = new Rettangolo(2,5);
         rettangolo.calcolaArea();
+        Triangolo triagolo = new Triangolo(2,4);
+        triagolo.calcolaArea();
     }
 }

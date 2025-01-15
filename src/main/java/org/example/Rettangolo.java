@@ -10,7 +10,6 @@ public class Rettangolo extends Forma {
     }
     @Override
     public void calcolaArea(){
-        int risultato = base*altezza;
         System.out.println("l'area è di = "+base*altezza);
     }
 
